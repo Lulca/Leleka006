@@ -449,6 +449,11 @@ body {
 .inline-b {
   display: inline-block; }
 
+.margin-42 {
+  margin-top: 42px;
+  padding-left: 60px;
+  padding-right: 60px; }
+
 .b-header {
   padding: 7px 0; }
   .b-header .b-header__work-time {
@@ -475,5 +480,88 @@ body {
       color: #bb9c4d;
       padding: 10px 15px; }
 
-.text {
-  font-family: "Roboto-Regular"; }
+.b-greeting {
+  height: 270px;
+  width: 570px;
+  padding: 36px 36px 24px 36px;
+  background-color: #ebebeb;
+  position: relative;
+  left: 420px;
+  bottom: 80px;
+  color: #000;
+  text-shadow: none; }
+  .b-greeting h1 {
+    margin: 0;
+    margin-bottom: 45px;
+    font-size: 18px; }
+  .b-greeting p {
+    font-size: 15px; }
+  .b-greeting .slider-pattern {
+    margin-top: 30px; }
+
+.carousel-indicators li {
+  background-color: #fff;
+  margin: 10px; }
+
+.carousel-indicators .active {
+  height: 15px;
+  width: 15px;
+  background-color: #bb9c4d;
+  border: 2px solid #fff;
+  margin: 7px; }
+
+.sprite {
+  background-image: url("../../img/spritesheet.png");
+  background-repeat: no-repeat;
+  display: block; }
+
+.sprite-complex {
+  width: 112px;
+  height: 112px;
+  background-position: -5px -5px; }
+
+.sprite-contemp {
+  width: 112px;
+  height: 112px;
+  background-position: -127px -5px; }
+
+.sprite-quiet {
+  width: 112px;
+  height: 112px;
+  background-position: -249px -5px; }
+
+.sprite-rest {
+  width: 112px;
+  height: 112px;
+  background-position: -371px -5px; }
+
+.sprite-service {
+  width: 112px;
+  height: 112px;
+  background-position: -493px -5px; }
+
+.sprite-spa {
+  width: 112px;
+  height: 112px;
+  background-position: -615px -5px; }
+
+.sprite-wifi {
+  width: 112px;
+  height: 112px;
+  background-position: -737px -5px; }
+
+.service {
+  padding-top: 45px;
+  margin-bottom: 45px; }
+
+.b-services i {
+  display: block;
+  margin: 0 auto; }
+
+.b-services .b-services__title {
+  font-family: 'Roboto-Bold';
+  margin-bottom: 29px;
+  margin-top: 27px; }
+
+.photos [class^="col-"] {
+  padding: 6px; }
