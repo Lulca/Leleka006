@@ -1,0 +1,32 @@
+.b-header {
+	padding: 7px 0;
+	.b-header__work-time {
+		margin-left: 23px;
+	}
+	.b-phones {
+		display: inline-block;
+		padding: 21px 0;
+		.b-phones__phone {
+			padding: 10px 18px 10px 26px;
+			display: inline-block;
+			background-image: url("../../img/circle-top.png");
+			background-repeat: no-repeat;
+			background-position: 0px 50%;
+		}
+		.b-phones__phone_icon {
+			background-image: url("../../img/phone-top.png");
+			background-position: 0px;
+			padding-left: 40px
+		}
+	}
+	.b-header__leng {
+		display: inline-block;
+		border: 1px solid #d6d6d6;
+		border-radius: 16px;
+		a {
+			display: block;
+			color: $accent-color;
+			padding: 10px 15px;
+		}
+	}
+}

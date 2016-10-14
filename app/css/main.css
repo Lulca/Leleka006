@@ -17,6 +17,13 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 3 */ }
 
+p {
+  margin: 0; }
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0; }
+
 /* Sections
    ========================================================================== */
 /**
@@ -435,9 +442,38 @@ body {
   font-size: 15px;
   background-color: #ffffff;
   line-height: 1;
-  color: #000000;
+  color: #3f3f3f;
   max-width: 1480px;
   margin: 0 auto; }
+
+.inline-b {
+  display: inline-block; }
+
+.b-header {
+  padding: 7px 0; }
+  .b-header .b-header__work-time {
+    margin-left: 23px; }
+  .b-header .b-phones {
+    display: inline-block;
+    padding: 21px 0; }
+    .b-header .b-phones .b-phones__phone {
+      padding: 10px 18px 10px 26px;
+      display: inline-block;
+      background-image: url("../../img/circle-top.png");
+      background-repeat: no-repeat;
+      background-position: 0px 50%; }
+    .b-header .b-phones .b-phones__phone_icon {
+      background-image: url("../../img/phone-top.png");
+      background-position: 0px;
+      padding-left: 40px; }
+  .b-header .b-header__leng {
+    display: inline-block;
+    border: 1px solid #d6d6d6;
+    border-radius: 16px; }
+    .b-header .b-header__leng a {
+      display: block;
+      color: #bb9c4d;
+      padding: 10px 15px; }
 
 .text {
   font-family: "Roboto-Regular"; }
