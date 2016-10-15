@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1300px) {
+    .b-greeting {
+        height: 270px;
+        width: 480px;
+    }
+} 
+
+@media only screen and (max-width: 1200px) {
+	.b-header__work-time {
+		position: relative;
+		top:-45px;
+		left: 120px;
+	}
+
+	.b-greeting {
+		position: relative;
+        left: 60px;
+        bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+	.b-header__work-time {
+		position: relative;
+		top:5px;
+		left: 0px;
+
+	}
+
+	.text-center-992 {
+		text-align: center;
+	}
+
+	.b-greeting {
+		height: 200px;
+		position: relative;
+        left: 60px;
+        bottom: 30px;
+        p {
+        	font-size: 12px;
+        	margin-bottom: 10px;
+        }
+
+        h1 {
+        	font-size: 14px;
+        	margin-bottom: 10px;
+        }
+    }
+
+	.b-slider-pattern_pos {
+		top: 0px;
+	}
+
+	.service {
+		[class^='col-'] {
+			margin-bottom: 40px;
+		}
+	}
+
+	.roomes {
+		img {
+			margin: 0 auto;
+		}
+	}
+	
+}
+
+@media only screen and (max-width: 768px) {
+	.b-greeting {
+		display: none;
+	}
+
+	.carousel-indicators {
+		ol {
+			margin-bottom: -10px;
+		}
+	}
+
+	.photos {
+		img {
+			margin: 0 auto;
+		}
+	}
+
+	.text-center-768 {
+		text-align: center;
+	}
+
+	.button-order {
+		padding: 10px 30px;
+	}
+
+	.b-contacts {
+		ul {
+			padding-left: 0;
+		}
+	}
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+	.correct-margin {
+		margin-top: -274px;
+	}
+}
+
+

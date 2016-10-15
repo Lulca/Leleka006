@@ -2,7 +2,7 @@ body {
 	font-family: 'Roboto-Regular', Arial, sans-serif;
 	font-size: $font-size;
 	background-color: $main-color;
-	line-height: 1;
+	line-height: 1.15;
 	color: $text-color;
 	max-width: 1480px;
 	margin: 0 auto;
@@ -16,4 +16,16 @@ body {
 	margin-top: 42px;
 	padding-left: 60px;
     padding-right: 60px;
+}
+
+.text-bold {
+	font-family: 'Roboto-Bold';
+}
+
+.text-underline {
+	color: #fff;
+	text-decoration: underline;
+	&:hover {
+		color: #fff;
+	}
 }

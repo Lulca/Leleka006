@@ -1,0 +1,17 @@
+.button-order {
+	color: #fff;
+	background-color: $accent-color;
+	padding: 17px 102px;
+	transition: all .3s;
+	position: relative;
+	top: 10px;
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+		background-color: darken($accent-color,10%);
+	}
+	&:visited {
+		text-decoration: none;
+		color: #fefefe;
+	}
+}

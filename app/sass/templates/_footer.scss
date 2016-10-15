@@ -1,0 +1,52 @@
+.sprite1 {
+    background-image: url("../../img/social.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    &:hover {
+    	cursor: pointer;
+    }
+    margin-left: 10px;
+}
+
+.sprite-fb {
+    width: 47px;
+    height: 46px;
+    background-position: -5px -5px;
+}
+
+.sprite-tw {
+    width: 47px;
+    height: 46px;
+    background-position: -62px -5px;
+}
+
+.sprite-vk {
+    width: 47px;
+    height: 46px;
+    background-position: -119px -5px;
+}
+
+.b-footer {
+	background-color: $footer-color;
+	padding-bottom: 55px;
+	padding-top: 20px;
+    border-top: 5px solid #988861;
+}
+
+.social {
+	text-align: right;
+    margin-top: 40px;
+}
+
+.phones-number {
+	margin-top: 30px;
+	color: #fff;
+	ul>li {
+		margin-top: 10px;
+	}
+}
+
+
+
+
+

@@ -108,3 +108,83 @@
 	}
 }
 
+.roomes {
+	margin-top: 40px;
+	.b-pattern__title {
+		font-size: 24px;
+	}
+}
+
+.b-pattern {
+	margin-bottom: 70px;
+}
+
+.b-slider-pattern {
+	background-image: url("../../img/slider-pattern.png");
+	height: 60px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+.b-room {
+	margin-bottom: 100px;
+	.b-room__border-order {
+		border: 1px solid #e9e0c7;
+	}
+	.b-room__title {
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.b-room__text {
+		margin-bottom: 50px;
+	}
+}
+
+.bottom-pattern {
+	background-image: url("../../img/bottom-pattern.png");
+	height: 60px;
+	background-repeat: no-repeat;
+}
+
+.b-contacts {
+    margin-bottom: 80px;
+    ul {
+        padding-left: 40px;
+        font-size: 16px;
+        .phone-item {
+            margin-bottom: 10px;
+        }
+    }
+}
+.b-contacts__title-main {
+    font-size: 24px;
+    font-family: 'Roboto-Bold';
+}
+
+.b-contacts__title {
+    font-size: 18px;
+    font-family: "Roboto-Bold";
+    margin-bottom: 20px;
+}
+
+.map {
+	margin-top: 30px;
+}
+
+.weather {
+	margin-top: 30px;
+}
+
+.b-slider-pattern_pos {
+	position: relative;
+	top: 20px;
+}
+
+
+.text-color-accent {
+    color: $accent-color;
+    &:hover {
+        color: $accent-color;
+    }
+}
