@@ -756,11 +756,11 @@ body {
   .correct-margin {
     margin-top: -274px; } }
 
-@media only screen and (min-width: 1220px) {
+@media only screen and (min-width: 1200px) {
   .photos img {
     height: 247px; } }
 
-@media only screen and (min-width: 992px) and (max-width: 1219px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .photos img {
     height: 203px; } }
 
