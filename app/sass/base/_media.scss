@@ -72,9 +72,7 @@
 	}
 
 	.carousel-indicators {
-		ol {
-			margin-bottom: -10px;
-		}
+		bottom: -10px;
 	}
 
 	.photos {
@@ -101,6 +99,31 @@
 @media only screen and (max-width: 992px) and (min-width: 768px) {
 	.correct-margin {
 		margin-top: -274px;
+	}
+}
+
+//different size of img solution
+@media only screen and (min-width: 1220px) {
+	.photos {
+		img {
+			height: 247px;
+		}
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1219px){
+	.photos {
+		img {
+			height: 203px;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.photos {
+		img {
+			height: 319px;
+		}
 	}
 }
 

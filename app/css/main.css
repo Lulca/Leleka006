@@ -741,8 +741,8 @@ body {
 @media only screen and (max-width: 768px) {
   .b-greeting {
     display: none; }
-  .carousel-indicators ol {
-    margin-bottom: -10px; }
+  .carousel-indicators {
+    bottom: -10px; }
   .photos img {
     margin: 0 auto; }
   .text-center-768 {
@@ -755,3 +755,15 @@ body {
 @media only screen and (max-width: 992px) and (min-width: 768px) {
   .correct-margin {
     margin-top: -274px; } }
+
+@media only screen and (min-width: 1220px) {
+  .photos img {
+    height: 247px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1219px) {
+  .photos img {
+    height: 203px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .photos img {
+    height: 319px; } }
